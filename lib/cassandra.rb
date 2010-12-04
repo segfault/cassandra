@@ -1,5 +1,5 @@
 require 'rubygems'
-gem 'thrift', '< 0.2.5'
+gem 'thrift', '~> 0.5'
 require 'thrift'
 require 'thrift_client'
 require 'json' unless defined?(JSON)
